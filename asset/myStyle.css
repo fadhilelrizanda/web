@@ -1,0 +1,139 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.par h1 {
+    margin-top: 200px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.gambar-home img {
+    margin-top: 70px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+    margin: 20px;
+}
+
+.but {
+    letter-spacing: 5px;
+    background-color: skyblue;
+    padding: 5px;
+    color: blue;
+}
+
+.but:hover {
+    background-color: aliceblue;
+    color: blue;
+
+}
+
+.quote {
+    margin-top: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+}
+
+.penulis {
+    letter-spacing: 3px;
+    font-weight: 100px;
+    margin-top: 20px;
+}
+
+.no-marg {
+    margin: 0px;
+}
+
+.border-line {
+    position: relative;
+    margin-top: 20px;
+}
+
+.border-line::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    background-color: aliceblue;
+    left: -500px;
+    right: -500px;
+    top: 50%;
+}
+
+.card-floating {
+    border-top: 5px solid #5bacf3;
+    box-shadow: 12px -13px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-padding {
+    padding: 30px;
+}
+
+.card-title {
+    font-weight: 300;
+}
+
+.wrap-container {
+    overflow: hidden;
+}
+
+.row-divider {
+    margin-top: 200px;
+    position: relative;
+
+}
+
+.row-divider::before {
+    position: absolute;
+    height: 2px;
+    left: -500px;
+    right: -500px;
+    background: radial-gradient(rgba(0, 0, 0.2), rgba(255, 255, 255, 0)100%);
+    width: 70%;
+    top: 0px;
+    content: "";
+    margin: auto;
+}
+
+.tech {
+    margin-top: 100px;
+}
+
+.tech h3 {
+    font-size: 23px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.nav-li-style li {
+    margin-left: 30px;
+}
+
+.navbar-style {
+    margin-top: 50px;
+}
+
+@media(max-width:540px) {
+    .navbar-style {
+        margin-top: 0px;
+        margin-left: 0px;
+        position: fixed;
+        width: 100%;
+        background-color: #f9f9f9;
+        z-index: 1;
+    }
+
+    .nav-li-style .navbar-toggler {
+        font-size: 16px;
+        padding: 5px 7px;
+        cursor: pointer;
+    }
+
+    .clean-code {
+        padding: 30px;
+    }
+}
